@@ -64,3 +64,23 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %{_datadir}/enlightenment/data/themes/*.edj
+
+
+%changelog
+* Sun Jan 02 2011 Crispin Boylan <crisb@mandriva.org> 0.2-1mdv2011.0
++ Revision: 627476
+- Update themes and dont install ones which dont work anymore
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1-3mdv2011.0
++ Revision: 617946
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 10 2009 Thierry Vignaud <tv@mandriva.org> 0.1-2mdv2010.0
++ Revision: 437220
+- rebuild
+
+* Thu Mar 05 2009 Antoine Ginies <aginies@mandriva.com> 0.1-1mdv2009.1
++ Revision: 348800
+- import e17_themes
+
+
