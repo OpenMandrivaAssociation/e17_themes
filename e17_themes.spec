@@ -1,11 +1,7 @@
-%define name 	e17_themes
-%define version 0.2
-%define release: 3
-
 Summary: 	Enlightenment DR 17 themes
-Name: 		%name
-Version: 	%version
-Release: 	%release
+Name: 		e17_themes
+Version: 	0.2
+Release: 	3
 License: 	BSD
 Group: 		Graphical desktop/Enlightenment
 URL:		http://exchange.enlightenment.org/theme/
@@ -22,7 +18,6 @@ Source9:	steampunk_0_18.edj.bz2
 Source10:	edjy-b.edj.bz2
 #Source11:	fireball.edj.bz2
 Source12:	A-Beautiful-Blue.edj.bz2
-BuildRoot: 	%_tmppath/%name-buildroot
 Requires:	e >= 0.16.999.050
 
 %description
@@ -33,6 +28,7 @@ E17 theme from exchange.enlightenment.org.
 %build
 
 %install
+rm -fr %{buildroot}
 mkdir -p %buildroot/%{_datadir}/enlightenment/data/themes/
 #cp -av %{SOURCE1} %buildroot/%{_datadir}/enlightenment/data/themes/
 cp -av %{SOURCE2} %buildroot/%{_datadir}/enlightenment/data/themes/
