@@ -1,6 +1,6 @@
 %define name 	e17_themes
 %define version 0.2
-%define release: 2
+%define release: 3
 
 Summary: 	Enlightenment DR 17 themes
 Name: 		%name
