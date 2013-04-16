@@ -1,6 +1,6 @@
 %define name 	e17_themes
 %define version 0.2
-%define release %mkrel 1
+%define release: 2
 
 Summary: 	Enlightenment DR 17 themes
 Name: 		%name
@@ -33,7 +33,6 @@ E17 theme from exchange.enlightenment.org.
 %build
 
 %install
-rm -fr $RPM_BUILD_ROOT
 mkdir -p %buildroot/%{_datadir}/enlightenment/data/themes/
 #cp -av %{SOURCE1} %buildroot/%{_datadir}/enlightenment/data/themes/
 cp -av %{SOURCE2} %buildroot/%{_datadir}/enlightenment/data/themes/
@@ -55,11 +54,7 @@ bunzip2 -fv $theme
 done
 popd
 
-%post
-%postun
-
 %clean
-rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
