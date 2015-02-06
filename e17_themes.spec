@@ -1,7 +1,7 @@
 Summary: 	Enlightenment DR 17 themes
 Name: 		e17_themes
 Version: 	0.2
-Release: 	3
+Release: 	4
 License: 	BSD
 Group: 		Graphical desktop/Enlightenment
 URL:		http://exchange.enlightenment.org/theme/
