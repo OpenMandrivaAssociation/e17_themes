@@ -4,7 +4,7 @@ Version: 	0.2
 Release: 	4
 License: 	BSD
 Group: 		Graphical desktop/Enlightenment
-URL:		http://exchange.enlightenment.org/theme/
+URL:		https://exchange.enlightenment.org/theme/
 #Source0:	Natural_Yellow.edj.bz2
 #Source1:	bwsquared.edj.bz2
 Source2:	cerium.edj.bz2
